@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-image {
+    height: 150px;
+    width: 150px;
+   
+}
+
+.about-image {
+    max-width: 100%;
+}
+
+.exercises-image {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
